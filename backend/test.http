@@ -1,0 +1,11 @@
+POST http://localhost:4000/app/signup 
+Content-Type:application/json
+
+ {
+    "fullName":"Josephyy",
+    "tradingname":"Shoes",
+    "email":"Kingcode@mail.com",
+    "country":"Nigeria",
+    "words":"Patronise me",
+    "password":"lovey"
+} 

@@ -37,6 +37,6 @@ const signUpTemplate = new mongoose.Schema({
     }
 })
 
-const signUpDocument = mongoose.model('mytable', signUpTemplate);
+module.exports = mongoose.model('mytable', signUpTemplate);
 
-module.exports = signUpDocument;
+ 
